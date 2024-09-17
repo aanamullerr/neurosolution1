@@ -1,0 +1,39 @@
+create database neurosolution;
+use neurosolution;
+
+create table cadastro(
+	id int auto_increment primary key,
+    nome varchar(255) not null,
+	sobrenome varchar(255) not null,
+    data date not null,
+    email varchar(255) not null,
+    senha varchar(255) not null
+    );
+    
+select * from form;
+    
+create table form(
+	form_id int auto_increment primary key,
+	nome varchar(255) not null,
+    numero varchar(11) not null,
+    email varchar(255) not null,
+    diagnostico boolean not null
+);
+select * from form;
+
+create table profissional(
+	id int auto_increment primary key,
+    nome varchar(255),
+    numero varchar(255),
+    email varchar(255),
+    descricao varchar(255)
+);
+
+insert into profissional (nome,numero,email,descricao) values (
+	"ALETHEA","51993430341","psic.alethea.oliveira@gmail.com", "Sou psicóloga formada pela Unisinos, especialista em Psicologia Clínica (IFP), Terapia Cognitivo-Comportamental (InTCC), pós-graduanda em Comportamento Alimentar (IPGS).
+Qualquer dúvida, entre em contato comigo pelo número acima."
+);
+
+
+select * from profissional;
+delete from profissional where id=14;
