@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFD9AA;
+}
+
+.logo{
+    width: 26vh;
+    height: 15vh;
+    margin-left: 10vh;
+    margin-top: 18vh;
+    margin-bottom: 1vh;
+}
+
+.login{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3vh;
+    text-align: center;
+    color: white; text-shadow: gray 0.1em 0.1em 0.2em;
+    font-weight: bold;
+}
+
+
+.tela{
+    background-color: #FEBF7C;
+    width: 200px;
+    height: 140px;
+    padding: 50px;
+    border-radius: 25px;
+    color: pink;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+
+    width: 60vw;
+    
+}
+
+input{
+    padding: 15px;
+    border: 2px solid #FF9224;
+    outline: none;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dimgrey;
+    width: 51vw;
+}
+
+button{
+    background-color: #FF9224;
+    border: none;
+    padding: 10px;
+    right: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4vw;
+    font-weight: bold;
+    width: 48vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 21px;
+    color: white;
+}
+
+
+
+
+h6,
+a{
+    color: #FF9224;
+    text-decoration:none; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 23vh;
+}
+
